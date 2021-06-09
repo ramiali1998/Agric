@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  padding: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header .container .logo {
+  width: 104px;
+  height: 37px;
+}
+
+header .container menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container menu ul li {
+  margin-top: 10px;
+}
+
+header .container menu ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+
+header .container menu ul li a:hover {
+  color: #E8991D;
+}
+
+header .container menu ul li .login {
+  width: 107px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #E8991D;
+  color: white;
+  cursor: pointer;
+}
+
+header .container menu ul li .login:hover {
+  background-color: black;
+  color: #E8991D;
+}
+
+main .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+main .SectionOne {
+  background-color: #DEE9C2;
+}
+
+main .SectionOne .ImageCaverContainer .ImageCaver {
+  width: 100%;
+  -webkit-filter: brightness(0.65);
+          filter: brightness(0.65);
+}
+
+main .SectionOne .CaverTextAndButtonOnPhoto {
+  position: absolute;
+  margin-top: 175px;
+  z-index: 1;
+}
+
+main .SectionOne .CaverTextAndButtonOnPhoto .mineTitle {
+  color: #cdcdcd;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  src: url("fonts/Poppins/Poppins-Regular.ttf");
+}
+
+main .SectionOne .CaverTextAndButtonOnPhoto .Pragraph-SectionOne {
+  color: white;
+  margin-top: 6px;
+  font-size: 40px;
+  max-width: 760px;
+  font-family: "Poppins-SemiBold";
+  src: url("fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+main .SectionOne .CaverTextAndButtonOnPhoto .Btns-SectionOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 116px;
+}
+
+main .SectionOne .CaverTextAndButtonOnPhoto .Btns-SectionOne .Sign-Up-Btn {
+  background-color: #E8991D;
+  padding: 10px 30px;
+  border-radius: 120px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+
+main .SectionOne .CaverTextAndButtonOnPhoto .Btns-SectionOne .Sign-Up-Btn:hover {
+  background-color: #cb7d00;
+}
+
+main .SectionOne .CaverTextAndButtonOnPhoto .Btns-SectionOne .PlayWatch-Btn {
+  background-color: #00000000;
+  margin-left: 20px;
+  padding: 14.5px 52px;
+  border-radius: 30px;
+  border: 1;
+  font-size: 16px;
+  border-color: white;
+  color: white;
+  font-family: "Poppins-Medium";
+  src: url("fonts/Poppins/Poppins-Medium.ttf");
+  cursor: pointer;
+}
+
+main .SectionOne .CaverTextAndButtonOnPhoto .Btns-SectionOne .PlayWatch-Btn span {
+  font-size: 12px;
+}
+
+main .SectionOne .CaverTextAndButtonOnPhoto .Btns-SectionOne .PlayWatch-Btn:hover {
+  background-color: #61616174;
+}
+
+main .SectionTow {
+  width: 100%;
+  height: 532.51px;
+  background-color: #DEE9C2;
+}
+
+main .SectionTow .container .title-SectionTow {
+  padding-top: 117px;
+}
+
+main .SectionTow .container .Pragraph-Container {
+  width: 1264px;
+  height: 98px;
+}
+
+main .SectionTow .container .Pragraph-Container .Pragraph-SectionTow {
+  padding-top: 64px;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+main .SectionThree {
+  margin-bottom: 20px;
+}
+
+main .SectionThree .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: -114.5px;
+}
+
+main .SectionThree .container .cards .card {
+  background-color: white;
+  width: 366px;
+  height: 250px;
+  border: 0.1px solid #e8e6e6;
+  -webkit-box-shadow: 1px 5px rgba(235, 233, 233, 0.283);
+          box-shadow: 1px 5px rgba(235, 233, 233, 0.283);
+}
+
+main .SectionThree .container .cards .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+main .SectionThree .container .cards .card .imgeContainer {
+  text-align: center;
+}
+
+main .SectionThree .container .cards .card .imgeContainer .IconCard {
+  margin-top: 24px;
+}
+
+main .SectionThree .container .cards .card .Card-Title {
+  text-align: center;
+  margin-top: 32px;
+}
+
+main .SectionThree .container .cards .card .paragraph-Card-container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+main .SectionThree .container .cards .card .paragraph-Card-container .Card-paragraph {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+main .SectionThree .leftMargin {
+  margin-left: 30px;
+}
+/*# sourceMappingURL=style.css.map */
